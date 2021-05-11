@@ -1,5 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:seo_tools/HomePage.dart';
+import 'package:seo_tools/tools/Affiliate.dart';
+import 'package:seo_tools/tools/Blogging.dart';
+import 'package:seo_tools/tools/Sem.dart';
+import 'package:seo_tools/tools/Seo.dart';
+import 'package:seo_tools/tools/Fba.dart';
+import 'package:seo_tools/tools/Spy.dart';
+import 'package:seo_tools/tools/Video.dart';
+import 'package:seo_tools/tools/Ecommerce.dart';
+import 'package:seo_tools/tools/Graphics.dart';
+import 'package:seo_tools/tools/Keyword.dart';
+
 
 void main() => runApp(MyApp());
 
@@ -25,7 +36,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text(title)),
-      body: Center(child: Text('My Page!')),
+      body: HomePage(),
       drawer: Drawer(
          child: ListView(
           // Important: Remove any padding from the ListView.
@@ -43,7 +54,32 @@ class MyHomePage extends StatelessWidget {
                 // Update the state of the app
                 Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => HomePage()));
+                    MaterialPageRoute(builder: (context) => Seo()));
+                // Then close the drawer
+
+              },
+            ),
+            Divider(),
+            ListTile(
+              title: Text('SEM Tools', style: TextStyle(fontSize: 20),),
+              onTap: () {
+                // Update the state of the app
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => Sem()));
+                // Then close the drawer
+
+              },
+            ),
+            Divider(),
+
+            ListTile(
+              title: Text('FBA Tools', style: TextStyle(fontSize: 20),),
+              onTap: () {
+                // Update the state of the app
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => Fba()));
                 // Then close the drawer
 
               },
@@ -55,7 +91,7 @@ class MyHomePage extends StatelessWidget {
 
                 Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => HomePage()));
+                    MaterialPageRoute(builder: (context) => Affiliate()));
               },
             ),
             Divider(),
@@ -64,7 +100,7 @@ class MyHomePage extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => HomePage()));
+                    MaterialPageRoute(builder: (context) => Spy()));
               },
             ),
             Divider(),
@@ -73,7 +109,7 @@ class MyHomePage extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => HomePage()));
+                    MaterialPageRoute(builder: (context) => Ecommerce()));
               },
             ),
             Divider(),
@@ -82,7 +118,7 @@ class MyHomePage extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => HomePage()));
+                    MaterialPageRoute(builder: (context) => Keyword()));
               },
             ),
             Divider(),
@@ -91,7 +127,7 @@ class MyHomePage extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => HomePage()));
+                    MaterialPageRoute(builder: (context) => Blogging()));
               },
             ),
             Divider(),
@@ -100,7 +136,7 @@ class MyHomePage extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => HomePage()));
+                    MaterialPageRoute(builder: (context) => Graphics()));
               },
             ),
             Divider(),
@@ -109,7 +145,7 @@ class MyHomePage extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => HomePage()));
+                    MaterialPageRoute(builder: (context) => Video()));
               },
             ),
           ],
