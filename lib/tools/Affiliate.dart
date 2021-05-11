@@ -5,7 +5,7 @@ class Affiliate extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: new AppBar(
-        title: Text("Affiliate Tools"),
+        title: Text("Affiliate Marketing Tools"),
       ),
       body: Text('Explore all the Affiliate tools..'),
     );

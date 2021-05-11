@@ -5,7 +5,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
 
-      body: Text('Explore all the tools..'),
+      body: Text('Explore all the tools.. This is home screen..'),
     );
   }
 }
