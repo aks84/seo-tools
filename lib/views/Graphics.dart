@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:seo_tools/models/Graphics.dart';
+
 class Graphics extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

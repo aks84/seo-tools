@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:seo_tools/models/Sem.dart';
+
 class Sem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

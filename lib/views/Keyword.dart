@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:seo_tools/models/Keyword.dart';
+
 class Keyword extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

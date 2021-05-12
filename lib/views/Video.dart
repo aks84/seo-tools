@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:seo_tools/models/Video.dart';
+
 class Video extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

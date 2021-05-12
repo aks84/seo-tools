@@ -1,15 +1,19 @@
 import 'package:flutter/material.dart';
+
+
 import 'package:seo_tools/HomePage.dart';
-import 'package:seo_tools/tools/Affiliate.dart';
-import 'package:seo_tools/tools/Blogging.dart';
-import 'package:seo_tools/tools/Sem.dart';
-import 'package:seo_tools/tools/Seo.dart';
-import 'package:seo_tools/tools/Fba.dart';
-import 'package:seo_tools/tools/Spy.dart';
-import 'package:seo_tools/tools/Video.dart';
-import 'package:seo_tools/tools/Ecommerce.dart';
-import 'package:seo_tools/tools/Graphics.dart';
-import 'package:seo_tools/tools/Keyword.dart';
+import 'package:seo_tools/views/Affiliate.dart';
+import 'package:seo_tools/views/Blogging.dart';
+import 'package:seo_tools/views/Market.dart';
+import 'package:seo_tools/views/Sem.dart';
+import 'package:seo_tools/views/Seo.dart';
+import 'package:seo_tools/views/Fba.dart';
+import 'package:seo_tools/views/Spy.dart';
+import 'package:seo_tools/views/Video.dart';
+import 'package:seo_tools/views/Ecommerce.dart';
+import 'package:seo_tools/views/Graphics.dart';
+import 'package:seo_tools/views/Keyword.dart';
+
 
 
 void main() => runApp(MyApp());
@@ -122,6 +126,17 @@ class MyHomePage extends StatelessWidget {
               },
             ),
             Divider(),
+
+            ListTile(
+              title: Text('Market Research Tools', style: TextStyle(fontSize: 20),),
+              onTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => Market()));
+              },
+            ),
+            Divider(),
+
             ListTile(
               title: Text('Blogging Tools', style: TextStyle(fontSize: 20),),
               onTap: () {

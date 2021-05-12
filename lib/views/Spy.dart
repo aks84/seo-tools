@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:seo_tools/models/Spy.dart';
+
 class Spy extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
