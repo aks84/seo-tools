@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-
-
 import 'package:seo_tools/HomePage.dart';
 import 'package:seo_tools/views/Affiliate.dart';
 import 'package:seo_tools/views/Blogging.dart';
