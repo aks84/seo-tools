@@ -22,17 +22,17 @@ class SemTool{
 
 List<SemTool> semList = [
   SemTool(
-      name: "",
-      logo: "",
-      tooltype: "SEM Tool",
-      description: "",
-      features: "",
-      plansnprice: "",
-      groupbuyprice: ""
+       name: "SEMrush",
+      logo: "images/semrush.jpg",
+      tooltype: "SEM",
+      description: "Do SEO, content marketing, competitor research, PPC and social media marketing from just one platform.",
+      features: "Keyword Research, On-page SEO, Competitor Analysis, Rank Tracking, PPC Keyword Research, Local SEO.",
+      plansnprice: r"Pro: $119, Guru: $229, Business: $449",
+      groupbuyprice: r"Guru: $10"
   ),
 
   SemTool(
-      name: "",
+      name: "WordStream",
       logo: "",
       tooltype: "SEM Tool",
       description: "",
@@ -42,7 +42,7 @@ List<SemTool> semList = [
   ),
 
  SemTool(
-      name: "",
+      name: "AdSector",
       logo: "",
       tooltype: "SEM Tool",
       description: "",
@@ -52,7 +52,7 @@ List<SemTool> semList = [
   ),
 
   SemTool(
-      name: "",
+      name: "Adplexity",
       logo: "",
       tooltype: "SEM Tool",
       description: "",
@@ -61,7 +61,7 @@ List<SemTool> semList = [
       groupbuyprice: ""
   ),
   SemTool(
-      name: "",
+      name: "Adbeat",
       logo: "",
       tooltype: "SEM Tool",
       description: "",
@@ -71,7 +71,7 @@ List<SemTool> semList = [
   ),
 
   SemTool(
-      name: "",
+      name: "SocialAdScout",
       logo: "",
       tooltype: "SEM Tool",
       description: "",
@@ -81,7 +81,7 @@ List<SemTool> semList = [
   ),
 
  SemTool(
-      name: "",
+      name: "AdPatrol",
       logo: "",
       tooltype: "SEM Tool",
       description: "",
@@ -90,13 +90,5 @@ List<SemTool> semList = [
       groupbuyprice: ""
   ),
 
-  SemTool(
-      name: "",
-      logo: "",
-      tooltype: "SEM Tool",
-      description: "",
-      features: "",
-      plansnprice: "",
-      groupbuyprice: ""
-  ),
+
 ];

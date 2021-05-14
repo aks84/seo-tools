@@ -10,7 +10,7 @@ class AffDetail extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(aff.title),
+        title: Text(aff.name),
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
@@ -19,21 +19,21 @@ class AffDetail extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Image.network(
-                aff.imageUrl,
-                height: 500,
-              ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Text(
-                  aff.year.toString(),
-                  textAlign: TextAlign.center,
-                  style: TextStyle(fontSize: 17.0, fontStyle: FontStyle.italic),
-                ),
+                aff.logo,
+                height: 200,
               ),
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Text(
                   aff.description,
+                  textAlign: TextAlign.justify,
+                  style: TextStyle(fontSize: 18.0, fontStyle: FontStyle.italic),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text(
+                  aff.plansnprice,
                   textAlign: TextAlign.justify,
                   style: TextStyle(fontSize: 22.0),
                 ),

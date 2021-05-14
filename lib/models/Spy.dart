@@ -22,7 +22,7 @@ class SpyTool{
 
 List<SpyTool> spyList = [
   SpyTool(
-      name: "",
+      name: "AdSpy",
       logo: "",
       tooltype: "Spy Tool",
       description: "",
@@ -32,7 +32,7 @@ List<SpyTool> spyList = [
   ),
 
   SpyTool(
-      name: "",
+      name: "BigSpy",
       logo: "",
       tooltype: "Spy Tool",
       description: "",
@@ -42,7 +42,7 @@ List<SpyTool> spyList = [
   ),
 
  SpyTool(
-      name: "",
+      name: "SpyFu",
       logo: "",
       tooltype: "Spy Tool",
       description: "",
@@ -52,7 +52,7 @@ List<SpyTool> spyList = [
   ),
 
   SpyTool(
-      name: "",
+      name: "PowerAdSpy",
       logo: "",
       tooltype: "Spy Tool",
       description: "",
@@ -62,7 +62,7 @@ List<SpyTool> spyList = [
   ),
 
     SpyTool(
-      name: "",
+      name: "ZIK Analytics",
       logo: "",
       tooltype: "Spy Tool",
       description: "",
@@ -72,7 +72,7 @@ List<SpyTool> spyList = [
   ),
 
   SpyTool(
-      name: "",
+      name: "SpyOver",
       logo: "",
       tooltype: "Spy Tool",
       description: "",
@@ -81,23 +81,4 @@ List<SpyTool> spyList = [
       groupbuyprice: ""
   ),
 
- SpyTool(
-      name: "",
-      logo: "",
-      tooltype: "Spy Tool",
-      description: "",
-      features: "",
-      plansnprice: "",
-      groupbuyprice: ""
-  ),
-
-  SpyTool(
-      name: "",
-      logo: "",
-      tooltype: "Spy Tool",
-      description: "",
-      features: "",
-      plansnprice: "",
-      groupbuyprice: ""
-  ),
 ];

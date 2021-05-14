@@ -22,7 +22,7 @@ class MarketTool{
 
 List<MarketTool> marketList = [
   MarketTool(
-      name: "",
+      name: "Niche Scraper",
       logo: "",
       tooltype: "Market Research Tool",
       description: "",
@@ -30,67 +30,5 @@ List<MarketTool> marketList = [
       plansnprice: "",
       groupbuyprice: ""
   ),
-  MarketTool(
-      name: "",
-      logo: "",
-      tooltype: "Market Research Tool",
-      description: "",
-      features: "",
-      plansnprice: "",
-      groupbuyprice: ""
-  ),
- MarketTool(
-      name: "",
-      logo: "",
-      tooltype: "Market Research Tool",
-      description: "",
-      features: "",
-      plansnprice: "",
-      groupbuyprice: ""
-  ),
-  MarketTool(
-      name: "",
-      logo: "",
-      tooltype: "Market Research Tool",
-      description: "",
-      features: "",
-      plansnprice: "",
-      groupbuyprice: ""
-  ),
-  MarketTool(
-      name: "",
-      logo: "",
-      tooltype: "Market Research Tool",
-      description: "",
-      features: "",
-      plansnprice: "",
-      groupbuyprice: ""
-  ),
-  MarketTool(
-      name: "",
-      logo: "",
-      tooltype: "Market Research Tool",
-      description: "",
-      features: "",
-      plansnprice: "",
-      groupbuyprice: ""
-  ),
- MarketTool(
-      name: "",
-      logo: "",
-      tooltype: "Market Research Tool",
-      description: "",
-      features: "",
-      plansnprice: "",
-      groupbuyprice: ""
-  ),
-  MarketTool(
-      name: "",
-      logo: "",
-      tooltype: "Market Research Tool",
-      description: "",
-      features: "",
-      plansnprice: "",
-      groupbuyprice: ""
-  ),
+  
 ];

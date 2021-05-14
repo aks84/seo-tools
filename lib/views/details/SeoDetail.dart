@@ -20,14 +20,14 @@ class SeoDetail extends StatelessWidget {
             children: [
               Image.network(
                 seo.logo,
-                height: 500,
+                height: 200,
               ),
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Text(
                   seo.description,
-                  textAlign: TextAlign.center,
-                  style: TextStyle(fontSize: 17.0, fontStyle: FontStyle.italic),
+                  textAlign: TextAlign.justify,
+                  style: TextStyle(fontSize: 18.0, fontStyle: FontStyle.italic),
                 ),
               ),
               Padding(

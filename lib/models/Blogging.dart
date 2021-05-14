@@ -23,7 +23,7 @@ class Blogtool{
 List<Blogtool> blogList = [
 
 Blogtool(
-    name: "",
+    name: "CMS",
     logo: "",
     tooltype: "Blogging Tool",
     description: "",
@@ -33,7 +33,7 @@ Blogtool(
   ),
 
 Blogtool(
-    name: "",
+    name: "StoryBase",
     logo: "",
     tooltype: "Blogging Tool",
     description: "",
@@ -43,7 +43,7 @@ Blogtool(
   ),
 
 Blogtool(
-    name: "",
+    name: "StoryBlocks",
     logo: "",
     tooltype: "Blogging Tool",
     description: "",
@@ -53,7 +53,7 @@ Blogtool(
   ),
 
 Blogtool(
-    name: "",
+    name: "Canva",
     logo: "",
     tooltype: "Blogging Tool",
     description: "",
@@ -63,7 +63,7 @@ Blogtool(
   ),
 
 Blogtool(
-    name: "",
+    name: "BuzzSumo",
     logo: "",
     tooltype: "Blogging Tool",
     description: "",
@@ -73,7 +73,7 @@ Blogtool(
   ),
 
 Blogtool(
-    name: "",
+    name: "Grammarly",
     logo: "",
     tooltype: "Blogging Tool",
     description: "",
@@ -82,43 +82,4 @@ Blogtool(
     groupbuyprice: ""
   ),
 
-Blogtool(
-    name: "",
-    logo: "",
-    tooltype: "Blogging Tool",
-    description: "",
-    features: "",
-    plansnprice: "",
-    groupbuyprice: ""
-  ),
-
-Blogtool(
-    name: "",
-    logo: "",
-    tooltype: "Blogging Tool",
-    description: "",
-    features: "",
-    plansnprice: "",
-    groupbuyprice: ""
-  ),
-
-Blogtool(
-    name: "",
-    logo: "",
-    tooltype: "Blogging Tool",
-    description: "",
-    features: "",
-    plansnprice: "",
-    groupbuyprice: ""
-  ),
-
-Blogtool(
-    name: "",
-    logo: "",
-    tooltype: "Blogging Tool",
-    description: "",
-    features: "",
-    plansnprice: "",
-    groupbuyprice: ""
-  ),
 ];

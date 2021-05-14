@@ -21,8 +21,9 @@ class EcomTool{
 }
 
 List<EcomTool> ecomList = [
+
   EcomTool(
-      name: "",
+      name: "Ecom Inspector",
       logo: "",
       tooltype: "eCommerce Tool",
       description: "",
@@ -32,7 +33,7 @@ List<EcomTool> ecomList = [
   ),
 
   EcomTool(
-      name: "",
+      name: "Helium 10",
       logo: "",
       tooltype: "eCommerce Tool",
       description: "",
@@ -42,7 +43,7 @@ List<EcomTool> ecomList = [
   ),
 
   EcomTool(
-      name: "",
+      name: "Jungle Scout",
       logo: "",
       tooltype: "eCommerce Tool",
       description: "",
@@ -52,7 +53,7 @@ List<EcomTool> ecomList = [
   ),
 
   EcomTool(
-      name: "",
+      name: "SaleHoo",
       logo: "",
       tooltype: "eCommerce Tool",
       description: "",
@@ -62,7 +63,7 @@ List<EcomTool> ecomList = [
   ),
 
   EcomTool(
-      name: "",
+      name: "AMZ Scout",
       logo: "",
       tooltype: "eCommerce Tool",
       description: "",
@@ -72,7 +73,7 @@ List<EcomTool> ecomList = [
   ),
 
   EcomTool(
-      name: "",
+      name: "Merchant Words",
       logo: "",
       tooltype: "eCommerce Tool",
       description: "",
@@ -82,7 +83,7 @@ List<EcomTool> ecomList = [
   ),
 
   EcomTool(
-      name: "",
+      name: "Viral Launch",
       logo: "",
       tooltype: "eCommerce Tool",
       description: "",
@@ -90,26 +91,5 @@ List<EcomTool> ecomList = [
       plansnprice: "",
       groupbuyprice: ""
   ),
-
-  EcomTool(
-      name: "",
-      logo: "",
-      tooltype: "eCommerce Tool",
-      description: "",
-      features: "",
-      plansnprice: "",
-      groupbuyprice: ""
-  ),
-
-  EcomTool(
-      name: "",
-      logo: "",
-      tooltype: "eCommerce Tool",
-      description: "",
-      features: "",
-      plansnprice: "",
-      groupbuyprice: ""
-  ),
-
 
 ];
