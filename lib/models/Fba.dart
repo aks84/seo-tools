@@ -5,7 +5,6 @@ class FbaTool{
   String logo;
   String tooltype;
   String description;
-  String mainuse;
   String features;
   String plansnprice;
   String groupbuyprice;
@@ -15,7 +14,6 @@ class FbaTool{
     @required this.logo,
     @required this.tooltype,
     @required this.description,
-    @required this.mainuse,
     @required this.features,
     @required this.plansnprice,
     @required this.groupbuyprice,
@@ -26,9 +24,78 @@ List<FbaTool> fbaList = [
   FbaTool(
       name: "",
       logo: "",
-      tooltype: "",
+      tooltype: "FBA Tool",
       description: "",
-      mainuse: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+  FbaTool(
+      name: "",
+      logo: "",
+      tooltype: "FBA Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+  FbaTool(
+      name: "",
+      logo: "",
+      tooltype: "FBA Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+  FbaTool(
+      name: "",
+      logo: "",
+      tooltype: "FBA Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+   FbaTool(
+      name: "",
+      logo: "",
+      tooltype: "FBA Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+  FbaTool(
+      name: "",
+      logo: "",
+      tooltype: "FBA Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+  FbaTool(
+      name: "",
+      logo: "",
+      tooltype: "FBA Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+  FbaTool(
+      name: "",
+      logo: "",
+      tooltype: "FBA Tool",
+      description: "",
       features: "",
       plansnprice: "",
       groupbuyprice: ""

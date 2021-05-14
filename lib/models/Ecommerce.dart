@@ -5,7 +5,6 @@ class EcomTool{
   String logo;
   String tooltype;
   String description;
-  String mainuse;
   String features;
   String plansnprice;
   String groupbuyprice;
@@ -15,7 +14,6 @@ class EcomTool{
     @required this.logo,
     @required this.tooltype,
     @required this.description,
-    @required this.mainuse,
     @required this.features,
     @required this.plansnprice,
     @required this.groupbuyprice,
@@ -26,11 +24,92 @@ List<EcomTool> ecomList = [
   EcomTool(
       name: "",
       logo: "",
-      tooltype: "",
+      tooltype: "eCommerce Tool",
       description: "",
-      mainuse: "",
       features: "",
       plansnprice: "",
       groupbuyprice: ""
   ),
+
+  EcomTool(
+      name: "",
+      logo: "",
+      tooltype: "eCommerce Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+  EcomTool(
+      name: "",
+      logo: "",
+      tooltype: "eCommerce Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+  EcomTool(
+      name: "",
+      logo: "",
+      tooltype: "eCommerce Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+  EcomTool(
+      name: "",
+      logo: "",
+      tooltype: "eCommerce Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+  EcomTool(
+      name: "",
+      logo: "",
+      tooltype: "eCommerce Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+  EcomTool(
+      name: "",
+      logo: "",
+      tooltype: "eCommerce Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+  EcomTool(
+      name: "",
+      logo: "",
+      tooltype: "eCommerce Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+  EcomTool(
+      name: "",
+      logo: "",
+      tooltype: "eCommerce Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+
 ];

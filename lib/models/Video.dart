@@ -5,7 +5,6 @@ class VideoTool{
   String logo;
   String tooltype;
   String description;
-  String mainuse;
   String features;
   String plansnprice;
   String groupbuyprice;
@@ -15,7 +14,6 @@ class VideoTool{
     @required this.logo,
     @required this.tooltype,
     @required this.description,
-    @required this.mainuse,
     @required this.features,
     @required this.plansnprice,
     @required this.groupbuyprice,
@@ -26,9 +24,35 @@ List<VideoTool> vidList = [
   VideoTool(
       name: "",
       logo: "",
-      tooltype: "",
+      tooltype: "Video Marketing Tool",
       description: "",
-      mainuse: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+  VideoTool(
+      name: "",
+      logo: "",
+      tooltype: "Video Marketing Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+  VideoTool(
+      name: "",
+      logo: "",
+      tooltype: "Video Marketing Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+  VideoTool(
+      name: "",
+      logo: "",
+      tooltype: "Video Marketing Tool",
+      description: "",
       features: "",
       plansnprice: "",
       groupbuyprice: ""

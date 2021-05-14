@@ -5,7 +5,6 @@ class GraphicTools{
   String logo;
   String tooltype;
   String description;
-  String mainuse;
   String features;
   String plansnprice;
   String groupbuyprice;
@@ -15,7 +14,6 @@ class GraphicTools{
     @required this.logo,
     @required this.tooltype,
     @required this.description,
-    @required this.mainuse,
     @required this.features,
     @required this.plansnprice,
     @required this.groupbuyprice,
@@ -26,9 +24,78 @@ List<GraphicTools> graphicList = [
   GraphicTools(
       name: "",
       logo: "",
-      tooltype: "",
+      tooltype: "Graphics Tools",
       description: "",
-      mainuse: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+    GraphicTools(
+      name: "",
+      logo: "",
+      tooltype: "Graphics Tools",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+GraphicTools(
+      name: "",
+      logo: "",
+      tooltype: "Graphics Tools",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+    GraphicTools(
+      name: "",
+      logo: "",
+      tooltype: "Graphics Tools",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+  GraphicTools(
+      name: "",
+      logo: "",
+      tooltype: "Graphics Tools",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+    GraphicTools(
+      name: "",
+      logo: "",
+      tooltype: "Graphics Tools",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+GraphicTools(
+      name: "",
+      logo: "",
+      tooltype: "Graphics Tools",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+    GraphicTools(
+      name: "",
+      logo: "",
+      tooltype: "Graphics Tools",
+      description: "",
       features: "",
       plansnprice: "",
       groupbuyprice: ""

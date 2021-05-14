@@ -5,7 +5,6 @@ class SpyTool{
   String logo;
   String tooltype;
   String description;
-  String mainuse;
   String features;
   String plansnprice;
   String groupbuyprice;
@@ -15,7 +14,6 @@ class SpyTool{
     @required this.logo,
     @required this.tooltype,
     @required this.description,
-    @required this.mainuse,
     @required this.features,
     @required this.plansnprice,
     @required this.groupbuyprice,
@@ -26,9 +24,78 @@ List<SpyTool> spyList = [
   SpyTool(
       name: "",
       logo: "",
-      tooltype: "",
+      tooltype: "Spy Tool",
       description: "",
-      mainuse: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+  SpyTool(
+      name: "",
+      logo: "",
+      tooltype: "Spy Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+ SpyTool(
+      name: "",
+      logo: "",
+      tooltype: "Spy Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+  SpyTool(
+      name: "",
+      logo: "",
+      tooltype: "Spy Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+    SpyTool(
+      name: "",
+      logo: "",
+      tooltype: "Spy Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+  SpyTool(
+      name: "",
+      logo: "",
+      tooltype: "Spy Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+ SpyTool(
+      name: "",
+      logo: "",
+      tooltype: "Spy Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+  SpyTool(
+      name: "",
+      logo: "",
+      tooltype: "Spy Tool",
+      description: "",
       features: "",
       plansnprice: "",
       groupbuyprice: ""

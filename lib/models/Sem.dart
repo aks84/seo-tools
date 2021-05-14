@@ -5,7 +5,6 @@ class SemTool{
   String logo;
   String tooltype;
   String description;
-  String mainuse;
   String features;
   String plansnprice;
   String groupbuyprice;
@@ -15,7 +14,6 @@ class SemTool{
     @required this.logo,
     @required this.tooltype,
     @required this.description,
-    @required this.mainuse,
     @required this.features,
     @required this.plansnprice,
     @required this.groupbuyprice,
@@ -26,9 +24,77 @@ List<SemTool> semList = [
   SemTool(
       name: "",
       logo: "",
-      tooltype: "",
+      tooltype: "SEM Tool",
       description: "",
-      mainuse: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+  SemTool(
+      name: "",
+      logo: "",
+      tooltype: "SEM Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+ SemTool(
+      name: "",
+      logo: "",
+      tooltype: "SEM Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+  SemTool(
+      name: "",
+      logo: "",
+      tooltype: "SEM Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+  SemTool(
+      name: "",
+      logo: "",
+      tooltype: "SEM Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+  SemTool(
+      name: "",
+      logo: "",
+      tooltype: "SEM Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+ SemTool(
+      name: "",
+      logo: "",
+      tooltype: "SEM Tool",
+      description: "",
+      features: "",
+      plansnprice: "",
+      groupbuyprice: ""
+  ),
+
+  SemTool(
+      name: "",
+      logo: "",
+      tooltype: "SEM Tool",
+      description: "",
       features: "",
       plansnprice: "",
       groupbuyprice: ""

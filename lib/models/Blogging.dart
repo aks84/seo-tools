@@ -5,7 +5,6 @@ class Blogtool{
   String logo;
   String tooltype;
   String description;
-  String mainuse;
   String features;
   String plansnprice;
   String groupbuyprice;
@@ -15,7 +14,6 @@ class Blogtool{
     @required this.logo,
     @required this.tooltype,
     @required this.description,
-    @required this.mainuse,
     @required this.features,
     @required this.plansnprice,
     @required this.groupbuyprice,
@@ -23,12 +21,102 @@ class Blogtool{
 }
 
 List<Blogtool> blogList = [
-  Blogtool(
+
+Blogtool(
     name: "",
     logo: "",
-    tooltype: "",
+    tooltype: "Blogging Tool",
     description: "",
-    mainuse: "",
+    features: "",
+    plansnprice: "",
+    groupbuyprice: ""
+  ),
+
+Blogtool(
+    name: "",
+    logo: "",
+    tooltype: "Blogging Tool",
+    description: "",
+    features: "",
+    plansnprice: "",
+    groupbuyprice: ""
+  ),
+
+Blogtool(
+    name: "",
+    logo: "",
+    tooltype: "Blogging Tool",
+    description: "",
+    features: "",
+    plansnprice: "",
+    groupbuyprice: ""
+  ),
+
+Blogtool(
+    name: "",
+    logo: "",
+    tooltype: "Blogging Tool",
+    description: "",
+    features: "",
+    plansnprice: "",
+    groupbuyprice: ""
+  ),
+
+Blogtool(
+    name: "",
+    logo: "",
+    tooltype: "Blogging Tool",
+    description: "",
+    features: "",
+    plansnprice: "",
+    groupbuyprice: ""
+  ),
+
+Blogtool(
+    name: "",
+    logo: "",
+    tooltype: "Blogging Tool",
+    description: "",
+    features: "",
+    plansnprice: "",
+    groupbuyprice: ""
+  ),
+
+Blogtool(
+    name: "",
+    logo: "",
+    tooltype: "Blogging Tool",
+    description: "",
+    features: "",
+    plansnprice: "",
+    groupbuyprice: ""
+  ),
+
+Blogtool(
+    name: "",
+    logo: "",
+    tooltype: "Blogging Tool",
+    description: "",
+    features: "",
+    plansnprice: "",
+    groupbuyprice: ""
+  ),
+
+Blogtool(
+    name: "",
+    logo: "",
+    tooltype: "Blogging Tool",
+    description: "",
+    features: "",
+    plansnprice: "",
+    groupbuyprice: ""
+  ),
+
+Blogtool(
+    name: "",
+    logo: "",
+    tooltype: "Blogging Tool",
+    description: "",
     features: "",
     plansnprice: "",
     groupbuyprice: ""
