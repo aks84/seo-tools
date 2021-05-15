@@ -23,7 +23,7 @@ class FbaTool{
 List<FbaTool> fbaList = [
   FbaTool(
       name: "Viral Launch",
-      logo: "",
+      logo: "images/",
       tooltype: "FBA Tool",
       description: "",
       features: "",
@@ -33,7 +33,7 @@ List<FbaTool> fbaList = [
 
   FbaTool(
       name: "TeraPeak",
-      logo: "",
+      logo: "images/",
       tooltype: "FBA Tool",
       description: "",
       features: "",
@@ -43,7 +43,7 @@ List<FbaTool> fbaList = [
 
   FbaTool(
       name: "AMZ Tracker",
-      logo: "",
+      logo: "images/",
       tooltype: "FBA Tool",
       description: "",
       features: "",
@@ -53,7 +53,7 @@ List<FbaTool> fbaList = [
 
   FbaTool(
       name: "Helium 10",
-      logo: "",
+      logo: "images/",
       tooltype: "FBA Tool",
       description: "",
       features: "",
@@ -63,7 +63,7 @@ List<FbaTool> fbaList = [
 
    FbaTool(
       name: "AMZ Scout",
-      logo: "",
+      logo: "images/",
       tooltype: "FBA Tool",
       description: "",
       features: "",
@@ -73,7 +73,7 @@ List<FbaTool> fbaList = [
 
   FbaTool(
       name: "MerchantWords",
-      logo: "",
+      logo: "images/",
       tooltype: "FBA Tool",
       description: "",
       features: "",
@@ -83,7 +83,7 @@ List<FbaTool> fbaList = [
 
   FbaTool(
       name: "JungleScout",
-      logo: "",
+      logo: "images/",
       tooltype: "FBA Tool",
       description: "",
       features: "",
@@ -93,7 +93,7 @@ List<FbaTool> fbaList = [
 
   FbaTool(
       name: "SaleHoo",
-      logo: "",
+      logo: "images/",
       tooltype: "FBA Tool",
       description: "",
       features: "",

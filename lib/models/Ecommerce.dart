@@ -24,7 +24,7 @@ List<EcomTool> ecomList = [
 
   EcomTool(
       name: "Ecom Inspector",
-      logo: "",
+      logo: "images/",
       tooltype: "eCommerce Tool",
       description: "",
       features: "",
@@ -34,7 +34,7 @@ List<EcomTool> ecomList = [
 
   EcomTool(
       name: "Helium 10",
-      logo: "",
+      logo: "images/",
       tooltype: "eCommerce Tool",
       description: "",
       features: "",
@@ -44,7 +44,7 @@ List<EcomTool> ecomList = [
 
   EcomTool(
       name: "Jungle Scout",
-      logo: "",
+      logo: "images/",
       tooltype: "eCommerce Tool",
       description: "",
       features: "",
@@ -54,7 +54,7 @@ List<EcomTool> ecomList = [
 
   EcomTool(
       name: "SaleHoo",
-      logo: "",
+      logo: "images/",
       tooltype: "eCommerce Tool",
       description: "",
       features: "",
@@ -64,7 +64,7 @@ List<EcomTool> ecomList = [
 
   EcomTool(
       name: "AMZ Scout",
-      logo: "",
+      logo: "images/",
       tooltype: "eCommerce Tool",
       description: "",
       features: "",
@@ -74,7 +74,7 @@ List<EcomTool> ecomList = [
 
   EcomTool(
       name: "Merchant Words",
-      logo: "",
+      logo: "images/",
       tooltype: "eCommerce Tool",
       description: "",
       features: "",
@@ -84,7 +84,7 @@ List<EcomTool> ecomList = [
 
   EcomTool(
       name: "Viral Launch",
-      logo: "",
+      logo: "images/",
       tooltype: "eCommerce Tool",
       description: "",
       features: "",

@@ -23,7 +23,7 @@ class SpyTool{
 List<SpyTool> spyList = [
   SpyTool(
       name: "AdSpy",
-      logo: "",
+      logo: "images/",
       tooltype: "Spy Tool",
       description: "",
       features: "",
@@ -33,7 +33,7 @@ List<SpyTool> spyList = [
 
   SpyTool(
       name: "BigSpy",
-      logo: "",
+      logo: "images/",
       tooltype: "Spy Tool",
       description: "",
       features: "",
@@ -43,7 +43,7 @@ List<SpyTool> spyList = [
 
  SpyTool(
       name: "SpyFu",
-      logo: "",
+      logo: "images/",
       tooltype: "Spy Tool",
       description: "",
       features: "",
@@ -53,7 +53,7 @@ List<SpyTool> spyList = [
 
   SpyTool(
       name: "PowerAdSpy",
-      logo: "",
+      logo: "images/",
       tooltype: "Spy Tool",
       description: "",
       features: "",
@@ -63,7 +63,7 @@ List<SpyTool> spyList = [
 
     SpyTool(
       name: "ZIK Analytics",
-      logo: "",
+      logo: "images/",
       tooltype: "Spy Tool",
       description: "",
       features: "",
@@ -73,7 +73,7 @@ List<SpyTool> spyList = [
 
   SpyTool(
       name: "SpyOver",
-      logo: "",
+      logo: "images/",
       tooltype: "Spy Tool",
       description: "",
       features: "",

@@ -24,7 +24,7 @@ List<Blogtool> blogList = [
 
 Blogtool(
     name: "CMS",
-    logo: "",
+    logo: "images/",
     tooltype: "Blogging Tool",
     description: "",
     features: "",
@@ -34,7 +34,7 @@ Blogtool(
 
 Blogtool(
     name: "StoryBase",
-    logo: "",
+    logo: "images/",
     tooltype: "Blogging Tool",
     description: "",
     features: "",
@@ -44,7 +44,7 @@ Blogtool(
 
 Blogtool(
     name: "StoryBlocks",
-    logo: "",
+    logo: "images/",
     tooltype: "Blogging Tool",
     description: "",
     features: "",
@@ -54,7 +54,7 @@ Blogtool(
 
 Blogtool(
     name: "Canva",
-    logo: "",
+    logo: "images/",
     tooltype: "Blogging Tool",
     description: "",
     features: "",
@@ -64,7 +64,7 @@ Blogtool(
 
 Blogtool(
     name: "BuzzSumo",
-    logo: "",
+    logo: "images/",
     tooltype: "Blogging Tool",
     description: "",
     features: "",
@@ -74,7 +74,7 @@ Blogtool(
 
 Blogtool(
     name: "Grammarly",
-    logo: "",
+    logo: "images/",
     tooltype: "Blogging Tool",
     description: "",
     features: "",

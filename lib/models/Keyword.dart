@@ -23,7 +23,7 @@ class KwTool{
 List<KwTool> kwList = [
   KwTool(
       name: "Ahrefs",
-      logo: "",
+      logo: "images/",
       tooltype: "Keyword Research Tool",
       description: "",
       features: "",
@@ -33,7 +33,7 @@ List<KwTool> kwList = [
 
     KwTool(
       name: "KWfinder",
-      logo: "",
+      logo: "images/",
       tooltype: "Keyword Research Tool",
       description: "",
       features: "",
@@ -43,7 +43,7 @@ List<KwTool> kwList = [
 
   KwTool(
       name: "Keyword Tool",
-      logo: "",
+      logo: "images/",
       tooltype: "Keyword Research Tool",
       description: "",
       features: "",
@@ -53,7 +53,7 @@ List<KwTool> kwList = [
 
     KwTool(
       name: "Keyword Revealer",
-      logo: "",
+      logo: "images/",
       tooltype: "Keyword Research Tool",
       description: "",
       features: "",
@@ -63,7 +63,7 @@ List<KwTool> kwList = [
 
   KwTool(
       name: "Keyword Keg",
-      logo: "",
+      logo: "images/",
       tooltype: "Keyword Research Tool",
       description: "",
       features: "",

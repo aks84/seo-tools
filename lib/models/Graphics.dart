@@ -23,7 +23,7 @@ class GraphicTools{
 List<GraphicTools> graphicList = [
   GraphicTools(
       name: "Canva",
-      logo: "",
+      logo: "images/",
       tooltype: "Graphics Tools",
       description: "",
       features: "",
@@ -33,7 +33,7 @@ List<GraphicTools> graphicList = [
 
     GraphicTools(
       name: "Envato",
-      logo: "",
+      logo: "images/",
       tooltype: "Graphics Tools",
       description: "",
       features: "",
@@ -43,7 +43,7 @@ List<GraphicTools> graphicList = [
 
 GraphicTools(
       name: "StookUnlimited",
-      logo: "",
+      logo: "images/",
       tooltype: "Graphics Tools",
       description: "",
       features: "",
@@ -53,7 +53,7 @@ GraphicTools(
 
     GraphicTools(
       name: "FreePik",
-      logo: "",
+      logo: "images/",
       tooltype: "Graphics Tools",
       description: "",
       features: "",
@@ -63,7 +63,7 @@ GraphicTools(
 
   GraphicTools(
       name: "PictoChart",
-      logo: "",
+      logo: "images/",
       tooltype: "Graphics Tools",
       description: "",
       features: "",
@@ -73,7 +73,7 @@ GraphicTools(
 
     GraphicTools(
       name: "PikBest",
-      logo: "",
+      logo: "images/",
       tooltype: "Graphics Tools",
       description: "",
       features: "",
@@ -83,7 +83,7 @@ GraphicTools(
 
 GraphicTools(
       name: "unbounce",
-      logo: "",
+      logo: "images/",
       tooltype: "Graphics Tools",
       description: "",
       features: "",
@@ -93,7 +93,7 @@ GraphicTools(
 
     GraphicTools(
       name: "Placeit",
-      logo: "",
+      logo: "images/",
       tooltype: "Graphics Tools",
       description: "",
       features: "",

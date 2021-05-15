@@ -41,15 +41,17 @@ class MyHomePage extends StatelessWidget {
       body: HomePage(),
       drawer: Drawer(
          child: ListView(
-          // Important: Remove any padding from the ListView.
           padding: EdgeInsets.zero,
           children: <Widget>[
-            DrawerHeader(
-              child: Text('Explore Tools', style: TextStyle(fontSize: 45, color: Colors.white),),
-              decoration: BoxDecoration(
-                color: Colors.blue,
-              ),
-            ),
+          Container(
+             height: 120.0,
+           child: DrawerHeader(
+             child: Text('Explore Tools', style: TextStyle(fontSize: 45, color: Colors.white),),
+             decoration: BoxDecoration(
+               color: Colors.blue,
+             ),
+           ),
+         ),
             ListTile(
               title: Text('SEO Tools', style: TextStyle(fontSize: 20),),
               onTap: () {
@@ -161,9 +163,12 @@ class MyHomePage extends StatelessWidget {
                     MaterialPageRoute(builder: (context) => Video()));
               },
             ),
+
           ],
         ),
       ),
+
     );
+
   }
 }

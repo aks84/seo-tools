@@ -22,7 +22,7 @@ class SemTool{
 
 List<SemTool> semList = [
   SemTool(
-       name: "SEMrush",
+      name: "SEMrush",
       logo: "images/semrush.jpg",
       tooltype: "SEM",
       description: "Do SEO, content marketing, competitor research, PPC and social media marketing from just one platform.",
@@ -33,7 +33,7 @@ List<SemTool> semList = [
 
   SemTool(
       name: "WordStream",
-      logo: "",
+      logo: "images/",
       tooltype: "SEM Tool",
       description: "",
       features: "",
@@ -43,7 +43,7 @@ List<SemTool> semList = [
 
  SemTool(
       name: "AdSector",
-      logo: "",
+      logo: "images/",
       tooltype: "SEM Tool",
       description: "",
       features: "",
@@ -53,7 +53,7 @@ List<SemTool> semList = [
 
   SemTool(
       name: "Adplexity",
-      logo: "",
+      logo: "images/",
       tooltype: "SEM Tool",
       description: "",
       features: "",
@@ -62,7 +62,7 @@ List<SemTool> semList = [
   ),
   SemTool(
       name: "Adbeat",
-      logo: "",
+      logo: "images/",
       tooltype: "SEM Tool",
       description: "",
       features: "",
@@ -72,7 +72,7 @@ List<SemTool> semList = [
 
   SemTool(
       name: "SocialAdScout",
-      logo: "",
+      logo: "images/",
       tooltype: "SEM Tool",
       description: "",
       features: "",
@@ -82,7 +82,7 @@ List<SemTool> semList = [
 
  SemTool(
       name: "AdPatrol",
-      logo: "",
+      logo: "images/",
       tooltype: "SEM Tool",
       description: "",
       features: "",

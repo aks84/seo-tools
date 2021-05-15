@@ -23,7 +23,7 @@ class MarketTool{
 List<MarketTool> marketList = [
   MarketTool(
       name: "Niche Scraper",
-      logo: "",
+      logo: "images/",
       tooltype: "Market Research Tool",
       description: "",
       features: "",
