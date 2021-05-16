@@ -17,9 +17,9 @@ class Affiliate extends StatelessWidget {
               Afftool aff = affList[index];
               return Card(
                 child: ListTile(
+                  leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(aff.logo)),
                   title: Text(aff.name),
                   subtitle: Text(aff.description),
-                  leading: Image.asset(aff.logo),
                   trailing: Icon(Icons.arrow_forward_rounded),
                   onTap: () {
                     Navigator.push(

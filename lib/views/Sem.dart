@@ -16,9 +16,9 @@ class Sem extends StatelessWidget {
               SemTool sem = semList[index];
               return Card(
                 child: ListTile(
+                  leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(sem.logo)),
                   title: Text(sem.name),
                   subtitle: Text(sem.description),
-                  leading: Image.asset(sem.logo),
                   trailing: Icon(Icons.arrow_forward_rounded),
                   onTap: () {
                     Navigator.push(

@@ -16,9 +16,9 @@ class Fba extends StatelessWidget {
               FbaTool fba = fbaList[index];
               return Card(
                 child: ListTile(
+                  leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(fba.logo)),
                   title: Text(fba.name),
                   subtitle: Text(fba.description),
-                  leading: Image.asset(fba.logo),
                   trailing: Icon(Icons.arrow_forward_rounded),
                   onTap: () {
                     Navigator.push(

@@ -16,9 +16,12 @@ class SeoDetail extends StatelessWidget {
         child: SingleChildScrollView(
           child: Column(
             children: [
-              Image.asset(
-                seo.logo,
-                height: 200,
+              Container(
+                padding: new EdgeInsets.all(10.0),
+                child: Image.asset(
+                  seo.logo,
+                  height: 200,
+                ),
               ),
 
               Container(
@@ -26,7 +29,7 @@ class SeoDetail extends StatelessWidget {
                 child: Text.rich(
                   TextSpan(
                     children: [
-                      TextSpan(text: 'Tools Name: ', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0,),),
+                      TextSpan(text: 'Tool Name: ', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0,),),
                       TextSpan(
                         text: seo.name+"\n\n",
                         style: TextStyle(fontSize: 20.0,),

@@ -33,7 +33,7 @@ List<SemTool> semList = [
 
   SemTool(
       name: "WordStream",
-      logo: "images/",
+      logo: "images/wordstream.png",
       tooltype: "SEM Tool",
       description: "",
       features: "",
@@ -43,7 +43,7 @@ List<SemTool> semList = [
 
  SemTool(
       name: "AdSector",
-      logo: "images/",
+      logo: "images/adsector.png",
       tooltype: "SEM Tool",
       description: "",
       features: "",
@@ -53,7 +53,7 @@ List<SemTool> semList = [
 
   SemTool(
       name: "Adplexity",
-      logo: "images/",
+      logo: "images/adplexity.png",
       tooltype: "SEM Tool",
       description: "",
       features: "",
@@ -62,7 +62,7 @@ List<SemTool> semList = [
   ),
   SemTool(
       name: "Adbeat",
-      logo: "images/",
+      logo: "images/adbeat.png",
       tooltype: "SEM Tool",
       description: "",
       features: "",
@@ -72,7 +72,7 @@ List<SemTool> semList = [
 
   SemTool(
       name: "SocialAdScout",
-      logo: "images/",
+      logo: "images/socialadscout.png",
       tooltype: "SEM Tool",
       description: "",
       features: "",
@@ -82,7 +82,7 @@ List<SemTool> semList = [
 
  SemTool(
       name: "AdPatrol",
-      logo: "images/",
+      logo: "images/adpatrol.png",
       tooltype: "SEM Tool",
       description: "",
       features: "",
