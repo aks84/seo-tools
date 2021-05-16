@@ -16,9 +16,9 @@ class Spy extends StatelessWidget {
               SpyTool spy = spyList[index];
               return Card(
                 child: ListTile(
+                  leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(spy.logo)),
                   title: Text(spy.name),
                   subtitle: Text(spy.description),
-                  leading: Image.asset(spy.logo),
                   trailing: Icon(Icons.arrow_forward_rounded),
                   onTap: () {
                     Navigator.push(

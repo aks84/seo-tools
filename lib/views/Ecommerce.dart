@@ -15,19 +15,19 @@ class Ecommerce extends StatelessWidget {
           itemBuilder: (context, index) {
             EcomTool ecom = ecomList[index];
             return Card(
-              child: ListTile(
-                title: Text(ecom.name),
-                subtitle: Text(ecom.description),
-                leading: Image.asset(ecom.logo),
-                trailing: Icon(Icons.arrow_forward_rounded),
-                onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => EcomDetail(ecom)));
-                },
-              ),
-            );
+                child: ListTile(
+                  leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(ecom.logo)),
+                  title: Text(ecom.name),
+                  subtitle: Text(ecom.description),
+                  trailing: Icon(Icons.arrow_forward_rounded),
+                  onTap: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => EcomDetail(ecom)));
+                  },
+                ),
+              );
           }));
 
   }
