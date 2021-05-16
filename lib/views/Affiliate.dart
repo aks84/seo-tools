@@ -12,6 +12,7 @@ class Affiliate extends StatelessWidget {
         title: Text("Affiliate Marketing Tools"),
       ),
         body: ListView.builder(
+            padding: EdgeInsets.only(bottom: 20.0, top: 20.0),
             itemCount: affList.length,
             itemBuilder: (context, index) {
               Afftool aff = affList[index];
@@ -29,7 +30,8 @@ class Affiliate extends StatelessWidget {
                   },
                 ),
               );
-            }));
 
+            }));
   }
 }
+

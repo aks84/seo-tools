@@ -11,6 +11,7 @@ class Graphics extends StatelessWidget {
         title: Text("Graphics Tools"),
       ),
         body: ListView.builder(
+            padding: EdgeInsets.only(bottom: 20.0, top: 20.0),
             itemCount: graphicList.length,
             itemBuilder: (context, index) {
               GraphicTools graph = graphicList[index];

@@ -11,6 +11,7 @@ class Sem extends StatelessWidget {
         title: Text("SEM Tools"),
       ),
         body: ListView.builder(
+            padding: EdgeInsets.only(bottom: 20.0, top: 20.0),
             itemCount: semList.length,
             itemBuilder: (context, index) {
               SemTool sem = semList[index];

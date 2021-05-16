@@ -11,6 +11,7 @@ class Spy extends StatelessWidget {
         title: Text("Spy Tools"),
       ),
         body: ListView.builder(
+            padding: EdgeInsets.only(bottom: 20.0, top: 20.0),
             itemCount: spyList.length,
             itemBuilder: (context, index) {
               SpyTool spy = spyList[index];

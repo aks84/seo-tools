@@ -11,6 +11,7 @@ class Ecommerce extends StatelessWidget {
         title: Text("eCommerce Tools"),
       ),
       body: ListView.builder(
+          padding: EdgeInsets.only(bottom: 20.0, top: 20.0),
           itemCount: ecomList.length,
           itemBuilder: (context, index) {
             EcomTool ecom = ecomList[index];

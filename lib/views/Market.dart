@@ -11,6 +11,7 @@ class Market extends StatelessWidget {
         title: Text("Market Research Tools"),
       ),
         body: ListView.builder(
+            padding: EdgeInsets.only(bottom: 20.0, top: 20.0),
             itemCount: marketList.length,
             itemBuilder: (context, index) {
               MarketTool mrk = marketList[index];

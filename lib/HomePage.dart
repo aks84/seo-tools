@@ -8,6 +8,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: ListView.builder(
+          padding: EdgeInsets.only(bottom: 20.0, top: 20.0),
           itemCount: seoList.length,
           itemBuilder: (context, index) {
             SeoTool seo = seoList[index];

@@ -11,6 +11,7 @@ class Blogging extends StatelessWidget {
         title: Text("Blogging Tools"),
       ),
       body: ListView.builder(
+          padding: EdgeInsets.only(bottom: 20.0, top: 20.0),
             itemCount: blogList.length,
             itemBuilder: (context, index) {
               Blogtool blog = blogList[index];

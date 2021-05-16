@@ -11,6 +11,7 @@ class Keyword extends StatelessWidget {
         title: Text("Keyword Research Tools"),
       ),
         body: ListView.builder(
+            padding: EdgeInsets.only(bottom: 20.0, top: 20.0),
             itemCount: kwList.length,
             itemBuilder: (context, index) {
               KwTool kw = kwList[index];

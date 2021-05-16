@@ -11,6 +11,7 @@ class Fba extends StatelessWidget {
         title: Text("FBA Tools"),
       ),
         body: ListView.builder(
+            padding: EdgeInsets.only(bottom: 20.0, top: 20.0),
             itemCount: fbaList.length,
             itemBuilder: (context, index) {
               FbaTool fba = fbaList[index];

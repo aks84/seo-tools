@@ -11,6 +11,7 @@ class Video extends StatelessWidget {
         title: Text("Video Marketing Tools"),
       ),
         body: ListView.builder(
+            padding: EdgeInsets.only(bottom: 20.0, top: 20.0),
             itemCount: vidList.length,
             itemBuilder: (context, index) {
               VideoTool vid = vidList[index];
