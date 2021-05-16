@@ -23,7 +23,7 @@ class SemTool{
 List<SemTool> semList = [
   SemTool(
       name: "SEMrush",
-      logo: "images/semrush.jpg",
+      logo: "images/semrush.png",
       tooltype: "SEM",
       description: "Do SEO, content marketing, competitor research, PPC and social media marketing from just one platform.",
       features: "Keyword Research, On-page SEO, Competitor Analysis, Rank Tracking, PPC Keyword Research, Local SEO.",

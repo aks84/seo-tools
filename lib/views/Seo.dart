@@ -17,9 +17,9 @@ class Seo extends StatelessWidget {
               SeoTool seo = seoList[index];
               return Card(
                 child: ListTile(
+                  leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(seo.logo)),
                   title: Text(seo.name),
                   subtitle: Text(seo.description),
-                  leading: Image.asset(seo.logo),
                   trailing: Icon(Icons.arrow_forward_rounded),
                   onTap: () {
                     Navigator.push(

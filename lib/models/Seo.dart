@@ -23,7 +23,7 @@ class SeoTool{
 List<SeoTool> seoList = [
   SeoTool(
       name: "Ahrefs",
-      logo: "images/ahrefs.jpg",
+      logo: "images/ahrefs.png",
       tooltype: "SEO",
       description: "With Ahrefs, you don’t have to be an SEO pro to rank higher and get more traffic.",
       features: "Site Explorer, Site Audit, Keyword Explorer, Rank Tracker, Content Explorer.",
@@ -33,7 +33,7 @@ List<SeoTool> seoList = [
 
   SeoTool(
      name: "SEMrush",
-      logo: "images/semrush.jpg",
+      logo: "images/semrush.png",
       tooltype: "SEO",
       description: "Do SEO, content marketing, competitor research, PPC and social media marketing from just one platform.",
       features: "Keyword Research, On-page SEO, Competitor Analysis, Rank Tracking, PPC Keyword Research, Local SEO.",
@@ -43,7 +43,7 @@ List<SeoTool> seoList = [
 
   SeoTool(
      name: "MOZ",
-      logo: "images/moz.jpg",
+      logo: "images/moz.png",
       tooltype: "SEO",
       description: "SEO software and data to help you increase traffic, rankings, and visibility in search results.",
       features: "Keyword Research, SEO Audit & Crawl, Back-link Research, Rank Tracking, Domain Analysis.",
@@ -53,7 +53,7 @@ List<SeoTool> seoList = [
 
   SeoTool(
      name: "Majestic",
-      logo: "images/majestic.jpg",
+      logo: "images/majestic.png",
       tooltype: "SEO",
       description: "Majestic maps the web to bring you the Link Intelligence data that you need to dominate your market. Enjoy award-winning data from one of SEO's most established brands.",
       features: "Site Explorer, Bulk Back-link Checker, URL Submitter, Keywords, Flow Metric History, Domain Compare.",
@@ -63,7 +63,7 @@ List<SeoTool> seoList = [
 
   SeoTool(
      name: "Alexa",
-      logo: "images/alexa.jpg",
+      logo: "images/alexa.png",
       tooltype: "SEO",
       description: "Get better marketing results by finding untapped opportunities to grow your business.",
       features: "SEO Audit, Site Comparison, Audience Overlap, Back-link Checker, On-page SEO.",
@@ -73,7 +73,7 @@ List<SeoTool> seoList = [
 
   SeoTool(
      name: "WooRank",
-      logo: "images/woorank.jpg",
+      logo: "images/woorank.png",
       tooltype: "SEO",
       description: "A simpler way to grow your business:our tools give you actionable insight to help you optimize your online sales and marketing efforts.",
       features: "Rank Tracker, Site Comparison, Site Crawl, Tool Integration, Automatic Alert.",
@@ -83,7 +83,7 @@ List<SeoTool> seoList = [
 
   SeoTool(
      name: "SpyFu",
-      logo: "images/spyfu.jpg",
+      logo: "images/spyfu.png",
       tooltype: "SEO",
       description: "Unlimited SEO & PPC Data. No matter what plan you choose.",
       features: "Competitor Analysis, Rank Tracker, Keyword Research, PPC Opportunity, Domain Overview, Sales Leads.",
@@ -93,7 +93,7 @@ List<SeoTool> seoList = [
 
   SeoTool(
      name: "Screaming Frog",
-      logo: "images/screamingfrog.jpg",
+      logo: "images/screamingfrog.png",
       tooltype: "SEO",
       description: "The industry leading website crawler for Windows, macOS and Ubuntu, trusted by thousands of SEOs and agencies worldwide for technical SEO site audits.",
       features: "SEO Spider Tool, On-page SEO, Broken Link Finder, Redirect Audit, Reviews Robots & Directories, Generates XML sitemap, Visualise Site Architecture.",
@@ -103,7 +103,7 @@ List<SeoTool> seoList = [
 
   SeoTool(
      name: "Mangools",
-      logo: "images/mangools.jpg",
+      logo: "images/mangools.png",
       tooltype: "SEO",
       description: "Juicy SEO tools you will love. We make SEO simple since 2014.",
       features: "KWFinder, SERPChecker, SERPWatcher, LinkMiner, SiteProfiler.",
@@ -113,7 +113,7 @@ List<SeoTool> seoList = [
 
   SeoTool(
      name: "DomCop",
-      logo: "images/domcop.jpg",
+      logo: "images/domcop.png",
       tooltype: "SEO",
       description: "Buy Expired Domains With Great Backlinks. We've got bucket loads of metrics to help you find the really good ones in minutes!",
       features: "Expiring Domains, Expired Domains, Archive Section, Export Records, Expired Domain Crawler.",

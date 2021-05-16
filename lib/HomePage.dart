@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
               child: ListTile(
                 title: Text(seo.name),
                 subtitle: Text(seo.description),
-                leading: Image.asset(seo.logo),
+                leading:  CircleAvatar( radius: 30.0, backgroundImage: AssetImage(seo.logo)),
                 trailing: Icon(Icons.arrow_forward_rounded),
                 onTap: () {
                   Navigator.push(
