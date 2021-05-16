@@ -23,7 +23,7 @@ class GraphicTools{
 List<GraphicTools> graphicList = [
   GraphicTools(
       name: "Canva",
-      logo: "images/",
+      logo: "images/canva.png",
       tooltype: "Graphics Tools",
       description: "",
       features: "",
@@ -33,7 +33,7 @@ List<GraphicTools> graphicList = [
 
     GraphicTools(
       name: "Envato",
-      logo: "images/",
+      logo: "images/envato.png",
       tooltype: "Graphics Tools",
       description: "",
       features: "",
@@ -42,8 +42,8 @@ List<GraphicTools> graphicList = [
   ),
 
 GraphicTools(
-      name: "StookUnlimited",
-      logo: "images/",
+      name: "StockUnlimited",
+      logo: "images/stockunlimited.png",
       tooltype: "Graphics Tools",
       description: "",
       features: "",
@@ -53,7 +53,7 @@ GraphicTools(
 
     GraphicTools(
       name: "FreePik",
-      logo: "images/",
+      logo: "images/freepik.png",
       tooltype: "Graphics Tools",
       description: "",
       features: "",
@@ -63,7 +63,7 @@ GraphicTools(
 
   GraphicTools(
       name: "PictoChart",
-      logo: "images/",
+      logo: "images/piktochart.png",
       tooltype: "Graphics Tools",
       description: "",
       features: "",
@@ -73,7 +73,7 @@ GraphicTools(
 
     GraphicTools(
       name: "PikBest",
-      logo: "images/",
+      logo: "images/pikbest.png",
       tooltype: "Graphics Tools",
       description: "",
       features: "",
@@ -83,7 +83,7 @@ GraphicTools(
 
 GraphicTools(
       name: "unbounce",
-      logo: "images/",
+      logo: "images/unbounce.png",
       tooltype: "Graphics Tools",
       description: "",
       features: "",
@@ -93,7 +93,7 @@ GraphicTools(
 
     GraphicTools(
       name: "Placeit",
-      logo: "images/",
+      logo: "images/placeit.png",
       tooltype: "Graphics Tools",
       description: "",
       features: "",

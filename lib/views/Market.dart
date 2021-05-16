@@ -16,9 +16,9 @@ class Market extends StatelessWidget {
               MarketTool mrk = marketList[index];
               return Card(
                 child: ListTile(
+                  leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(mrk.logo)),
                   title: Text(mrk.name),
                   subtitle: Text(mrk.description),
-                  leading: Image.asset(mrk.logo),
                   trailing: Icon(Icons.arrow_forward_rounded),
                   onTap: () {
                     Navigator.push(

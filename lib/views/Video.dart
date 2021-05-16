@@ -16,9 +16,9 @@ class Video extends StatelessWidget {
               VideoTool vid = vidList[index];
               return Card(
                 child: ListTile(
+                  leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(vid.logo)),
                   title: Text(vid.name),
                   subtitle: Text(vid.description),
-                  leading: Image.asset(vid.logo),
                   trailing: Icon(Icons.arrow_forward_rounded),
                   onTap: () {
                     Navigator.push(

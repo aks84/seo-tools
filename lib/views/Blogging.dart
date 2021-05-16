@@ -16,9 +16,9 @@ class Blogging extends StatelessWidget {
               Blogtool blog = blogList[index];
               return Card(
                 child: ListTile(
+                  leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(blog.logo)),
                   title: Text(blog.name),
                   subtitle: Text(blog.description),
-                  leading: Image.asset(blog.logo),
                   trailing: Icon(Icons.arrow_forward_rounded),
                   onTap: () {
                     Navigator.push(

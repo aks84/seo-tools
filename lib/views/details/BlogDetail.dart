@@ -12,34 +12,90 @@ class BlogDetail extends StatelessWidget {
       appBar: AppBar(
         title: Text(blog.name),
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(8.0),
+      body: Container(
         child: SingleChildScrollView(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.network(
-                blog.logo,
-                height: 200,
-              ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Text(
-                  blog.description,
-                  textAlign: TextAlign.justify,
-                  style: TextStyle(fontSize: 18.0, fontStyle: FontStyle.italic),
+              Container(
+                padding: new EdgeInsets.all(10.0),
+                child: Image.asset(
+                  blog.logo,
+                  height: 200,
                 ),
               ),
+
+              Container(
+                  padding: EdgeInsets.all(10.0),
+                  child: Text.rich(
+                    TextSpan(
+                      children: [
+                        TextSpan(text: 'Tool Name: ', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0,),),
+                        TextSpan(
+                          text: blog.name+"\n\n",
+                          style: TextStyle(fontSize: 20.0,),
+                        ),
+
+                        TextSpan(text: "Tool Type: ",
+                          style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold,),
+                        ),
+                        TextSpan(text: blog.tooltype+"\n\n",
+                          style: TextStyle(fontSize: 20.0, ),
+                        ),
+                        TextSpan(text: "Description:\n",
+                          style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold,),
+                        ),
+                        TextSpan(text: blog.description+"\n\n",
+                          style: TextStyle(fontSize: 20.0, ),
+                        ),
+
+                        TextSpan(text: "Features:\n",
+                          style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold,),
+                        ),
+                        TextSpan(text: blog.features+"\n\n",
+                          style: TextStyle(fontSize: 20.0, ),
+                        ),
+
+                        TextSpan(text: "Plans & Price:\n",
+                          style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold,),
+                        ),
+                        TextSpan(text: blog.plansnprice+"\n\n",
+                          style: TextStyle(fontSize: 20.0, ),
+                        ),
+
+                        TextSpan(text: "Group Buy Price:\n",
+                          style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold,),
+                        ),
+                        TextSpan(text: blog.groupbuyprice+"\n\n",
+                          style: TextStyle(fontSize: 20.0, ),
+                        ),
+                        // TextSpan(text: ' world!'),
+                      ],
+                    ),
+                  )
+              ),
               Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Text(
-                  blog.plansnprice,
-                  textAlign: TextAlign.justify,
-                  style: TextStyle(fontSize: 22.0),
+                padding: const EdgeInsets.only(bottom: 20.0, right: 10.0, left:10.0),
+                child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    primary: Colors.blueAccent,
+                    onPrimary: Colors.white,
+                    padding: EdgeInsets.all(10.0),
+                    side: BorderSide(color: Colors.white30, width: 3),
+                  ),
+                  child: Text('Buy '+blog.name+ ' Group Buy '+blog.groupbuyprice,
+                    style: TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold,),
+                  ),
+                  onPressed: () { },
+
                 ),
+              ),
+              Container(
+                color: Colors.blueAccent,
+                height: 48.0,
               ),
             ],
           ),
+
         ),
       ),
     );

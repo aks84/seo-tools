@@ -23,7 +23,7 @@ class VideoTool{
 List<VideoTool> vidList = [
   VideoTool(
       name: "Ai Video Creator",
-      logo: "images/",
+      logo: "images/aivideocreator.png",
       tooltype: "Video Marketing Tool",
       description: "",
       features: "",
@@ -32,7 +32,7 @@ List<VideoTool> vidList = [
   ),
   VideoTool(
       name: "Vidgeos",
-      logo: "images/",
+      logo: "images/vidgeos.png",
       tooltype: "Video Marketing Tool",
       description: "",
       features: "",
@@ -41,7 +41,7 @@ List<VideoTool> vidList = [
   ),
   VideoTool(
       name: "Screen-o-Matic",
-      logo: "images/",
+      logo: "images/screenomatic.png",
       tooltype: "Video Marketing Tool",
       description: "",
       features: "",

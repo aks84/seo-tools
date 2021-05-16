@@ -16,9 +16,9 @@ class Graphics extends StatelessWidget {
               GraphicTools graph = graphicList[index];
               return Card(
                 child: ListTile(
+                  leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(graph.logo)),
                   title: Text(graph.name),
                   subtitle: Text(graph.description),
-                  leading: Image.asset(graph.logo),
                   trailing: Icon(Icons.arrow_forward_rounded),
                   onTap: () {
                     Navigator.push(
