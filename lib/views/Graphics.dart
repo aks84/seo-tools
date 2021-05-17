@@ -15,7 +15,9 @@ class Graphics extends StatelessWidget {
             itemCount: graphicList.length,
             itemBuilder: (context, index) {
               GraphicTools graph = graphicList[index];
-              return Card(
+              return Container(
+                  height: 100,
+                  child: Card(
                 child: ListTile(
                   leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(graph.logo)),
                   title: Text(graph.name),
@@ -28,6 +30,7 @@ class Graphics extends StatelessWidget {
                             builder: (context) => GraphicDetail(graph)));
                   },
                 ),
+                  ),
               );
             }));
 

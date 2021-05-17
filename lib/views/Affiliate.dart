@@ -16,7 +16,9 @@ class Affiliate extends StatelessWidget {
             itemCount: affList.length,
             itemBuilder: (context, index) {
               Afftool aff = affList[index];
-              return Card(
+              return Container(
+                  height: 100,
+                  child: Card(
                 child: ListTile(
                   leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(aff.logo)),
                   title: Text(aff.name),
@@ -29,6 +31,7 @@ class Affiliate extends StatelessWidget {
                             builder: (context) => AffDetail(aff)));
                   },
                 ),
+              ),
               );
 
             }));

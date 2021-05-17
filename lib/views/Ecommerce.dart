@@ -15,7 +15,9 @@ class Ecommerce extends StatelessWidget {
           itemCount: ecomList.length,
           itemBuilder: (context, index) {
             EcomTool ecom = ecomList[index];
-            return Card(
+            return Container(
+                height: 100,
+                child: Card(
                 child: ListTile(
                   leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(ecom.logo)),
                   title: Text(ecom.name),
@@ -28,7 +30,8 @@ class Ecommerce extends StatelessWidget {
                             builder: (context) => EcomDetail(ecom)));
                   },
                 ),
-              );
+                ),
+            );
           }));
 
   }

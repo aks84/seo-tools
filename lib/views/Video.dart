@@ -15,7 +15,9 @@ class Video extends StatelessWidget {
             itemCount: vidList.length,
             itemBuilder: (context, index) {
               VideoTool vid = vidList[index];
-              return Card(
+              return Container(
+                  height: 100,
+                  child: Card(
                 child: ListTile(
                   leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(vid.logo)),
                   title: Text(vid.name),
@@ -28,6 +30,7 @@ class Video extends StatelessWidget {
                             builder: (context) => VideoDetail(vid)));
                   },
                 ),
+                  ),
               );
             }));
 

@@ -15,7 +15,9 @@ class Fba extends StatelessWidget {
             itemCount: fbaList.length,
             itemBuilder: (context, index) {
               FbaTool fba = fbaList[index];
-              return Card(
+              return Container(
+                  height: 100,
+                  child: Card(
                 child: ListTile(
                   leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(fba.logo)),
                   title: Text(fba.name),
@@ -28,6 +30,7 @@ class Fba extends StatelessWidget {
                             builder: (context) => FbaDetail(fba)));
                   },
                 ),
+                  ),
               );
             }));
 

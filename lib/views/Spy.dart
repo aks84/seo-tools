@@ -15,7 +15,9 @@ class Spy extends StatelessWidget {
             itemCount: spyList.length,
             itemBuilder: (context, index) {
               SpyTool spy = spyList[index];
-              return Card(
+              return Container(
+                  height: 100,
+                  child: Card(
                 child: ListTile(
                   leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(spy.logo)),
                   title: Text(spy.name),
@@ -28,6 +30,7 @@ class Spy extends StatelessWidget {
                             builder: (context) => SpyDetail(spy)));
                   },
                 ),
+                  ),
               );
             }));
 

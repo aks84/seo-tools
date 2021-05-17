@@ -16,7 +16,9 @@ class Seo extends StatelessWidget {
             itemCount: seoList.length,
             itemBuilder: (context, index) {
               SeoTool seo = seoList[index];
-              return Card(
+              return Container(
+                  height: 100,
+                  child: Card(
                 child: ListTile(
                   leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(seo.logo)),
                   title: Text(seo.name),
@@ -29,6 +31,7 @@ class Seo extends StatelessWidget {
                             builder: (context) => SeoDetail(seo)));
                   },
                 ),
+                  ),
               );
             }));
 

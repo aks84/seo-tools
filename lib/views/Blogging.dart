@@ -15,7 +15,9 @@ class Blogging extends StatelessWidget {
             itemCount: blogList.length,
             itemBuilder: (context, index) {
               Blogtool blog = blogList[index];
-              return Card(
+              return Container(
+                  height: 100,
+                  child: Card(
                 child: ListTile(
                   leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(blog.logo)),
                   title: Text(blog.name),
@@ -28,6 +30,7 @@ class Blogging extends StatelessWidget {
                             builder: (context) => BlogDetail(blog)));
                   },
                 ),
+                  ),
               );
             }));
 

@@ -15,7 +15,9 @@ class Market extends StatelessWidget {
             itemCount: marketList.length,
             itemBuilder: (context, index) {
               MarketTool mrk = marketList[index];
-              return Card(
+              return Container(
+                  height: 100,
+                  child: Card(
                 child: ListTile(
                   leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(mrk.logo)),
                   title: Text(mrk.name),
@@ -28,6 +30,7 @@ class Market extends StatelessWidget {
                             builder: (context) => MarketDetail(mrk)));
                   },
                 ),
+                  ),
               );
             }));
 

@@ -15,7 +15,9 @@ class Sem extends StatelessWidget {
             itemCount: semList.length,
             itemBuilder: (context, index) {
               SemTool sem = semList[index];
-              return Card(
+              return Container(
+                  height: 100,
+                  child: Card(
                 child: ListTile(
                   leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(sem.logo)),
                   title: Text(sem.name),
@@ -28,6 +30,7 @@ class Sem extends StatelessWidget {
                             builder: (context) => SemDetail(sem)));
                   },
                 ),
+                  ),
               );
             }));
 

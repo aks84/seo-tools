@@ -15,7 +15,9 @@ class Keyword extends StatelessWidget {
             itemCount: kwList.length,
             itemBuilder: (context, index) {
               KwTool kw = kwList[index];
-              return Card(
+              return Container(
+                  height: 100,
+                  child: Card(
                 child: ListTile(
                   leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(kw.logo)),
                   title: Text(kw.name),
@@ -28,6 +30,7 @@ class Keyword extends StatelessWidget {
                             builder: (context) => KwDetail(kw)));
                   },
                 ),
+                  ),
               );
             }));
 
