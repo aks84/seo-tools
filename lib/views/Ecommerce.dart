@@ -19,7 +19,7 @@ class Ecommerce extends StatelessWidget {
                 child: ListTile(
                   leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(ecom.logo)),
                   title: Text(ecom.name),
-                  subtitle: Text(ecom.description),
+                  subtitle: Text(ecom.description, maxLines: 3, softWrap: true, overflow: TextOverflow.clip,),
                   trailing: Icon(Icons.arrow_forward_rounded),
                   onTap: () {
                     Navigator.push(

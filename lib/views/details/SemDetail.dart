@@ -21,7 +21,7 @@ class SemDetail extends StatelessWidget {
                 padding: new EdgeInsets.all(10.0),
                 child: Image.asset(
                   sem.logo,
-                  height: 200,
+                  height: 150,
                 ),
               ),
 

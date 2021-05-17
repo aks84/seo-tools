@@ -19,7 +19,7 @@ class Fba extends StatelessWidget {
                 child: ListTile(
                   leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(fba.logo)),
                   title: Text(fba.name),
-                  subtitle: Text(fba.description),
+                  subtitle: Text(fba.description, maxLines: 3, softWrap: true, overflow: TextOverflow.clip,),
                   trailing: Icon(Icons.arrow_forward_rounded),
                   onTap: () {
                     Navigator.push(

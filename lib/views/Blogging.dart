@@ -19,7 +19,7 @@ class Blogging extends StatelessWidget {
                 child: ListTile(
                   leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(blog.logo)),
                   title: Text(blog.name),
-                  subtitle: Text(blog.description),
+                  subtitle: Text(blog.description, maxLines: 3, softWrap: true, overflow: TextOverflow.clip,),
                   trailing: Icon(Icons.arrow_forward_rounded),
                   onTap: () {
                     Navigator.push(

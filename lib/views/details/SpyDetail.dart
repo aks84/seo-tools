@@ -21,7 +21,7 @@ class SpyDetail extends StatelessWidget {
                 padding: new EdgeInsets.all(10.0),
                 child: Image.asset(
                   spy.logo,
-                  height: 200,
+                  height: 150,
                 ),
               ),
 

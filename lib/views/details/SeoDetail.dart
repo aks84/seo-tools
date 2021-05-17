@@ -20,7 +20,7 @@ class SeoDetail extends StatelessWidget {
                 padding: new EdgeInsets.all(10.0),
                 child: Image.asset(
                   seo.logo,
-                  height: 200,
+                  height: 150,
                 ),
               ),
 

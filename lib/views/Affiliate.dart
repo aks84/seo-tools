@@ -20,7 +20,7 @@ class Affiliate extends StatelessWidget {
                 child: ListTile(
                   leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(aff.logo)),
                   title: Text(aff.name),
-                  subtitle: Text(aff.description),
+                  subtitle: Text(aff.description, maxLines: 3, softWrap: true, overflow: TextOverflow.clip,),
                   trailing: Icon(Icons.arrow_forward_rounded),
                   onTap: () {
                     Navigator.push(

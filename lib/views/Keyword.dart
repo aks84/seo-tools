@@ -19,7 +19,7 @@ class Keyword extends StatelessWidget {
                 child: ListTile(
                   leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(kw.logo)),
                   title: Text(kw.name),
-                  subtitle: Text(kw.description),
+                  subtitle: Text(kw.description, maxLines: 3, softWrap: true, overflow: TextOverflow.clip,),
                   trailing: Icon(Icons.arrow_forward_rounded),
                   onTap: () {
                     Navigator.push(

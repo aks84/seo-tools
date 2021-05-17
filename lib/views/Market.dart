@@ -19,7 +19,7 @@ class Market extends StatelessWidget {
                 child: ListTile(
                   leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(mrk.logo)),
                   title: Text(mrk.name),
-                  subtitle: Text(mrk.description),
+                  subtitle: Text(mrk.description, maxLines: 3, softWrap: true, overflow: TextOverflow.clip,),
                   trailing: Icon(Icons.arrow_forward_rounded),
                   onTap: () {
                     Navigator.push(

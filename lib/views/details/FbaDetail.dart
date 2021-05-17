@@ -21,7 +21,7 @@ class FbaDetail extends StatelessWidget {
                 padding: new EdgeInsets.all(10.0),
                 child: Image.asset(
                   fba.logo,
-                  height: 200,
+                  height: 150,
                 ),
               ),
 

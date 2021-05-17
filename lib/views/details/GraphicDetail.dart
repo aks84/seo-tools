@@ -21,7 +21,7 @@ class GraphicDetail extends StatelessWidget {
                 padding: new EdgeInsets.all(10.0),
                 child: Image.asset(
                   graph.logo,
-                  height: 200,
+                  height: 150,
                 ),
               ),
 

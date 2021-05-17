@@ -19,7 +19,7 @@ class Video extends StatelessWidget {
                 child: ListTile(
                   leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(vid.logo)),
                   title: Text(vid.name),
-                  subtitle: Text(vid.description),
+                  subtitle: Text(vid.description, maxLines: 3, softWrap: true, overflow: TextOverflow.clip,),
                   trailing: Icon(Icons.arrow_forward_rounded),
                   onTap: () {
                     Navigator.push(

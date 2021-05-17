@@ -19,7 +19,7 @@ class Sem extends StatelessWidget {
                 child: ListTile(
                   leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(sem.logo)),
                   title: Text(sem.name),
-                  subtitle: Text(sem.description),
+                  subtitle: Text(sem.description, maxLines: 3, softWrap: true, overflow: TextOverflow.clip,),
                   trailing: Icon(Icons.arrow_forward_rounded),
                   onTap: () {
                     Navigator.push(

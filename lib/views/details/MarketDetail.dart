@@ -21,7 +21,7 @@ class MarketDetail extends StatelessWidget {
                 padding: new EdgeInsets.all(10.0),
                 child: Image.asset(
                   mrk.logo,
-                  height: 200,
+                  height: 150,
                 ),
               ),
 

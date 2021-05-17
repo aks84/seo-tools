@@ -20,7 +20,7 @@ class BlogDetail extends StatelessWidget {
                 padding: new EdgeInsets.all(10.0),
                 child: Image.asset(
                   blog.logo,
-                  height: 200,
+                  height: 150,
                 ),
               ),
 

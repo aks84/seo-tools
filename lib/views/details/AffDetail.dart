@@ -20,7 +20,7 @@ class AffDetail extends StatelessWidget {
                 padding: new EdgeInsets.all(10.0),
                 child: Image.asset(
                   aff.logo,
-                  height: 200,
+                  height: 150,
                 ),
               ),
 

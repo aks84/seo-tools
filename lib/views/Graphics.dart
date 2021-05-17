@@ -19,7 +19,7 @@ class Graphics extends StatelessWidget {
                 child: ListTile(
                   leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(graph.logo)),
                   title: Text(graph.name),
-                  subtitle: Text(graph.description),
+                  subtitle: Text(graph.description, maxLines: 3, softWrap: true, overflow: TextOverflow.clip,),
                   trailing: Icon(Icons.arrow_forward_rounded),
                   onTap: () {
                     Navigator.push(

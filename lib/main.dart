@@ -12,8 +12,6 @@ import 'package:seo_tools/views/Ecommerce.dart';
 import 'package:seo_tools/views/Graphics.dart';
 import 'package:seo_tools/views/Keyword.dart';
 
-
-
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {

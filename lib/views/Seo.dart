@@ -20,7 +20,7 @@ class Seo extends StatelessWidget {
                 child: ListTile(
                   leading:  CircleAvatar(radius: 30.0, backgroundImage: AssetImage(seo.logo)),
                   title: Text(seo.name),
-                  subtitle: Text(seo.description),
+                  subtitle: Text(seo.description, maxLines: 3, softWrap: true, overflow: TextOverflow.clip,),
                   trailing: Icon(Icons.arrow_forward_rounded),
                   onTap: () {
                     Navigator.push(

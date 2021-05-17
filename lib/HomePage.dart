@@ -12,18 +12,21 @@ class HomePage extends StatelessWidget {
           itemCount: seoList.length,
           itemBuilder: (context, index) {
             SeoTool seo = seoList[index];
-            return Card(
-              child: ListTile(
-                title: Text(seo.name),
-                subtitle: Text(seo.description),
-                leading:  CircleAvatar( radius: 30.0, backgroundImage: AssetImage(seo.logo)),
-                trailing: Icon(Icons.arrow_forward_rounded),
-                onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => SeoDetail(seo)));
-                },
+            return Container(
+              height: 100,
+              child: Card(
+                child: ListTile(
+                  title: Text(seo.name),
+                  subtitle: Text(seo.description, maxLines: 3, softWrap: true, overflow: TextOverflow.clip,),
+                  leading:  CircleAvatar( radius: 30.0, backgroundImage: AssetImage(seo.logo)),
+                  trailing: Icon(Icons.arrow_forward_rounded),
+                  onTap: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => SeoDetail(seo)));
+                  },
+                ),
               ),
             );
           }));
