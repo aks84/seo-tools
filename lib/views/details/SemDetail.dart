@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:seo_tools/models/Sem.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class SemDetail extends StatelessWidget {
   final SemTool sem;
@@ -9,6 +10,10 @@ class SemDetail extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+void _launchURL() async =>
+        await canLaunch(sem.url) ? await launch(sem.url) : throw 'Could not launch $sem.url';
+
     return Scaffold(
       appBar: AppBar(
         title: Text(sem.name),
@@ -80,13 +85,13 @@ class SemDetail extends StatelessWidget {
                   style: ElevatedButton.styleFrom(
                     primary: Colors.blueAccent,
                     onPrimary: Colors.white,
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(12.0),
                     side: BorderSide(color: Colors.white30, width: 3),
                   ),
                   child: Text('Buy '+sem.name+ ' Group Buy '+sem.groupbuyprice,
-                    style: TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold,),
+                    style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold,),
                   ),
-                  onPressed: () { },
+                  onPressed: _launchURL,
 
                 ),
               ),

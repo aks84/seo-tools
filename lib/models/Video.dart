@@ -8,6 +8,7 @@ class VideoTool{
   String features;
   String plansnprice;
   String groupbuyprice;
+  String url;
 
   VideoTool({
     @required this.name,
@@ -17,6 +18,8 @@ class VideoTool{
     @required this.features,
     @required this.plansnprice,
     @required this.groupbuyprice,
+    @required this.url,
+
   });
 }
 
@@ -28,7 +31,8 @@ List<VideoTool> vidList = [
       description: "Create videos in seconds. Choose From 15 Template Packs - 15x Money Making Method & Niches. Edit Slide Text, Import Images & Videos & Animate with 23 Motion Graphics Templates!",
       features: "15x Proven Template Packs, Create REAL LIFE videos, 100% Beginner-friendly, Video Training Included",
       plansnprice: r"$27",
-      groupbuyprice: "For Lite Time"
+      groupbuyprice: "For Lite Time",
+      url: "https://www.google.com"
   ),
 
   VideoTool(
@@ -38,7 +42,8 @@ List<VideoTool> vidList = [
       description: "The Next Generation In Video Marketing Technology Enabling It's Users To Create Amazing {smart} Videos...",
       features: "Designed By Marketers, For Marketers, Intelligent, Animated, Pro Marketing Videos, Instant Video Publishing",
       plansnprice: r"Subscription: $67/Monthly, $468/Yearly",
-      groupbuyprice: "Subscription"
+      groupbuyprice: "Subscription",
+      url: "https://www.google.com"
   ),
   VideoTool(
       name: "Screen-o-Matic",
@@ -47,7 +52,8 @@ List<VideoTool> vidList = [
       description: "Capture, create and share. Our screen capture tools help you easily create, edit and communicate with videos and images. Simple and intuitive tools to share your ideas.",
       features: "Record Your Screen with webcam and audio, Edit Your Videos, Take Screenshop, Host and Share Videos, Stock Library.",
       plansnprice: r"Delux: $1.65x12, Premier: $4x12",
-      groupbuyprice: "Subscription"
+      groupbuyprice: "Subscription",
+      url: "https://www.google.com"
   ),
   
 ];

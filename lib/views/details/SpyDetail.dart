@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:seo_tools/models/Spy.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class SpyDetail extends StatelessWidget {
   final SpyTool spy;
@@ -9,6 +10,10 @@ class SpyDetail extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+void _launchURL() async =>
+        await canLaunch(spy.url) ? await launch(spy.url) : throw 'Could not launch $spy.url';
+
     return Scaffold(
       appBar: AppBar(
         title: Text(spy.name),
@@ -80,13 +85,13 @@ class SpyDetail extends StatelessWidget {
                   style: ElevatedButton.styleFrom(
                     primary: Colors.blueAccent,
                     onPrimary: Colors.white,
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(12.0),
                     side: BorderSide(color: Colors.white30, width: 3),
                   ),
                   child: Text('Buy '+spy.name+ ' Group Buy '+spy.groupbuyprice,
-                    style: TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold,),
+                    style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold,),
                   ),
-                  onPressed: () { },
+                  onPressed: _launchURL,
 
                 ),
               ),

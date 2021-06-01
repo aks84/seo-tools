@@ -8,6 +8,7 @@ class MarketTool{
   String features;
   String plansnprice;
   String groupbuyprice;
+  String url;
 
   MarketTool({
     @required this.name,
@@ -17,6 +18,7 @@ class MarketTool{
     @required this.features,
     @required this.plansnprice,
     @required this.groupbuyprice,
+    @required this.url,
   });
 }
 
@@ -28,7 +30,8 @@ List<MarketTool> marketList = [
       description: "The Niche Scraper is an extremely powerful dropshipping and product research bot. It allows you to spy on other Shopify sites and find guaranteed winning products. Take the guess work out of your research and allow our web crawler to show you products that are proven to sell.",
       features: "Product Discovery, Hand Picked Products, Market Research, Marketing Tools, Getting Started.",
       plansnprice: r"Subscription: $50/Monthly, $199/Yearly",
-      groupbuyprice: "Try Free"
+      groupbuyprice: "Try Free",
+      url: "https://www.google.com"
   ),
   
 ];
